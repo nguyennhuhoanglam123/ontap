@@ -1,0 +1,66 @@
+.body {
+    background: #000000;
+    padding: 500px;
+    color: rgb(235, 173, 173);
+}
+
+.avatar {
+    border-radius: 100px;
+}
+
+.button {
+    font-family: 20px;
+    background-color: rgb(229, 253, 235);
+    border: 2px;
+    width:10px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    margin: 5px 0 5px 0;
+    transition-duration: 0.3s;
+    transition-property: color, backgroud-color;
+    
+    text-align:center;
+}
+
+.button:hover {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    background-color: rgb(201, 49, 49);
+}
+
+.h1 {
+    font-family: 'Dongle', monospace;
+    margin: 1px 0 3px 0;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.p1 {
+    font-family: 'Dongle', monospace;
+    margin: 2px 0 2px 0;
+    font-size: 30px;
+    color: rgb(255, 254, 176);
+}
+
+.p {
+    font-family: 'Dongle', monospace;
+    margin: 3px 0 8px 0;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(107, 241, 208);
+}
+.alo{
+    width: 1px;
+    height: 100px;
+}
+body {
+    background-image: url(image/backgroud.png);
+   
+}
+
+hr {
+    transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
